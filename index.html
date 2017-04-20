@@ -16,6 +16,14 @@ title: {{ site.title }}
       height: 600px;
       margin: auto;
   }
+  
+  .carousel-inner > .item {
+    transition: 2.0s ease-in-out left !important;
+  }
+
+  @media not all, (-webkit-transform-3d) .carousel-inner > .item {
+    transition: transform ~'2.0s ease-in-out' !important;
+  }
   </style>
   
 </head>
