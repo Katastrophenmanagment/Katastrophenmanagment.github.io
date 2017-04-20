@@ -1,7 +1,7 @@
 # Hello World!!
 
 {% for post in site.posts %}
-  <h1>Post</h1>
+  {% include post %}
 {% endfor %}
 
 ## Welcome to GitHub Pages
