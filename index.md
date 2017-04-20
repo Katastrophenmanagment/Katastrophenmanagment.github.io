@@ -1,4 +1,7 @@
 # Hello World!!
+
+{% include slider.html %}
+
 <ul>
 {% for post in site.posts %}
   <li>
