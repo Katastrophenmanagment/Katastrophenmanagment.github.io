@@ -2,8 +2,8 @@
 <ul>
 {% for post in site.posts %}
   <li>
-  <p>{% post.title %}</p>
-  <p>{% post.content %}</p>
+  <p>{{ post.title }}</p>
+  <p>{{ post.content }}</p>
   </li>
 {% endfor %}
 </ul>
